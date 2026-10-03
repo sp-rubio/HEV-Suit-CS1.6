@@ -1,0 +1,15 @@
+/*
+ * SP-TEAM HEV Suit Modular API
+ * Include file for third-party plugins to interact with the HEV system
+ *
+ * Usage: #include <sp_hev_suit>
+ */
+
+#if defined _sp_hev_suit_included
+    #endinput
+#endif
+#define _sp_hev_suit_included
+
+native hev_is_user_wearing(id);
+
+forward hev_on_weapon_deploy(id, weapon_id);
